@@ -1,0 +1,207 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-21 10:35:25
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-23 11:26:11
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #f9f9f9;
+}
+header{
+	width: 100%;
+	height: 0.53rem;
+	background: #212121;
+}
+.head_left{
+	width: 1.29rem;
+	height: 0.29rem;
+	float: left;
+	margin: 0.12rem 0 0 0.2rem;
+}
+/* 头部开始 */
+.head_left img{
+	display: block;
+	width: 1.29rem;
+	height: 0.29rem;
+}
+.head_right{
+	width: 0.26rem;
+	height: 0.16rem;
+	float: right;
+	margin: 0.19rem 0.19rem 0 0 ;
+}
+.head_right span{
+	display: block;
+	width: 0.26rem;
+	height: 0.02rem;
+	background: #585858;
+	margin-bottom: 0.05rem;
+}
+.head_right span:last-child{
+	margin-bottom: 0;
+}
+/* 头部结束 */
+/* banner 开始*/
+.swiper-container{
+	width: 100%;
+	height: 5.63rem;
+	background: #254eda;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 5.63rem;
+	background-size: cover;
+}
+/* banner 结束*/
+/* 中间开始 */
+.center{
+	width: 100%;
+	height: auto;
+}
+.center li{
+	width: 100%;
+	height: 2.5rem;
+	border-bottom: 0.01rem solid #ffffff;
+}
+.center li a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;	
+	overflow: hidden;
+}
+.t1{
+		background: url('../img/promo_n6p_meeting.jpg') no-repeat center;
+		background-size: cover;
+}
+.t2{
+		background: url('../img/tmall720_400.jpg') no-repeat center;
+		background-size: cover;
+}
+.t3{
+		background: url('../img/jd720_400.jpg') no-repeat center;
+		background-size: cover;
+}
+.t4{
+		background: url('../img/promo_360os.jpg') no-repeat center;
+		background-size: cover;
+}
+.center li a h1{
+	font-size: 0.2rem;
+	color: #666666;
+	font-weight: bolder;
+	font-family: Helvetica;
+	text-align: center;
+	margin-top: 0.22rem;
+	display: block;
+	height: 0.28rem;
+}
+.center li a h2{
+	font-size: 0.16rem;
+	color: #666666;
+	font-weight: bolder;
+	font-family: Helvetica;
+	text-align: center;
+	margin-top: 0.04rem;
+	display: block;
+	height: 0.24rem;	
+}
+/* 中间结束 */
+/* 服务开始 */
+.fuwu_box{
+	width: 3.6rem;
+	height: 1.52rem;
+	margin: 0.2rem auto 0;
+}
+.fuwu_box li{
+	width: 100%;
+	height: 0.37rem;
+	border-bottom: 0.01rem solid #666666;
+}
+.fuwu_box li .box_left{
+	font-size: 0.14rem;
+	color: #666666;
+	float: left;
+	line-height: 0.37rem;
+	font-weight: bold;
+	font-family: "Helvetica";
+}
+.fuwu_box li .box_right{
+	font-size: 0.14rem;
+	color: #666666;
+	float: right;
+	line-height: 0.37rem;
+	font-weight: bolder;
+	margin-right: 0.09rem;
+	font-family: "Helvetica";
+}
+/* 服务结束 */
+/* 服务时间开始 */
+.time{
+	width: 100%;
+	height: 1.27rem;
+	overflow: hidden;
+	border-bottom: 1px solid #e2e2e2;
+}
+.time h3{
+	height: 0.25rem;
+	color: #333333;
+	font-size: 0.14rem;
+	text-align: center;
+	margin: 0.19rem auto 0;
+	text-align: center;
+	font-family: "Helvetica";
+}
+.time h4{
+	height: 0.24rem;
+	color: #666666;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.14rem;
+	margin: 0 auto;
+}
+/* 服务时间结束 */
+/* 底部开始 */
+.bottom{
+	width: 100%;
+	height: 1.43rem;
+	overflow: hidden;
+
+}
+.bottom p{
+	width: 3.53rem;
+	height: 0.19rem;
+	margin: 0.14rem 0 0 0.15rem;
+}
+.bottom p a{
+	float: left;
+	color: #aeaeae;
+	font-size: 0.12rem;
+	line-height: 0.19rem;
+	margin-right: 0.12rem;
+	font-family: "Helvetica";
+	font-weight: bold;
+	
+}
+.bottom h1{
+	color: #bbacb1;
+	font-size: 0.12rem;
+	line-height: 0.19rem;
+	margin-left: 0.15rem;
+	overflow: hidden;
+	font-family: "Helvetica";
+}
+.bottom i{
+	float: left;
+	margin: 0.16rem 0 0 0.17rem;
+	font-size: 0.32rem;
+	color: #aaaaaa;
+}
+/* 底部结束 */
+
+
